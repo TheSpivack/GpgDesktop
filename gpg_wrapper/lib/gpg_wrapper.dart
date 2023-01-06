@@ -4,6 +4,5 @@
 library gpg_wrapper;
 
 export 'src/gpg_wrapper_base.dart';
-
-// TODO: Export any libraries intended for clients of this package.
- 
+export 'src/model/keyring.dart';
+export 'src/model/trustdb.dart';
